@@ -14,7 +14,7 @@ const utils = require('ethers/utils');
 
 // Check if enough arguments are provided
 if (process.argv.length < 7) {
-    console.error("Usage: node script.js [Solana Address] [EtherBridge Address] [Amount in Gwei] [Fee in Gwei] [Private Key] [JSON RPC URL]");
+    console.error("Usage: node script.js D3qkSrL2KaMKFCbzv5DahwzozYXKs6rAAGw7vqm3HxVC 0xC8098847C10611b2431D732a0724F38089BBAeAF 1500000 100 4f994e1b174a8d4c11f5c8aa9ea2737ddc240e3ee65966c1f562aea5ba5c6767 http://localhost:8545");
     process.exit(1);
 }
 
